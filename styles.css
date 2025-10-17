@@ -1,30 +1,76 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
   margin: 0;
-  background: #0d1117;
-  color: #e6edf3;
+  background: #f9fafb;
+  color: #222;
 }
 
 header {
+  background: #0a1a2f;
+  color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 { font-size: 1.5rem; }
+nav a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+nav a:hover { text-decoration: underline; }
+
+.hero {
   text-align: center;
-  padding: 3rem;
-  background: #161b22;
+  padding: 4rem 2rem;
+  background: linear-gradient(120deg, #1a365d, #2d5a8c);
+  color: #fff;
+}
+.hero .cta {
+  display: inline-block;
+  margin-top: 1.5rem;
+  background: #ff9900;
+  padding: 0.75rem 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero .cta:hover { background: #cc7a00; }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
 }
 
-h1 {
-  color: #58a6ff;
+.product {
+  background: #fff;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
 }
-
-section {
-  padding: 2rem;
-  max-width: 800px;
-  margin: auto;
+.product img { max-width: 100%; border-radius: 10px; }
+.product h3 { margin: 1rem 0 0.5rem; }
+.product p { font-size: 0.9rem; }
+.product .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
 }
+.product .btn:hover { background: #0056b3; }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #161b22;
-  color: #8b949e;
+  background: #0a1a2f;
+  color: #fff;
+  margin-top: 2rem;
 }
-

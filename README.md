@@ -1,3 +1,3 @@
 # vigilant-security-site
-Vigilant Website dedicated source of truth
+The office website of Vigilant Security. A Website which is a dedicated source of truth for products to protect your online presense.
 
