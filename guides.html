@@ -1,0 +1,42 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Guides — The Vigilant Security</title>
+<link rel="stylesheet" href="styles.css"></head><body>
+<header class="header"><div class="logo">🔐 The Vigilant Security</div>
+<nav class="nav">
+  <a href="index.html">Home</a><a class="active" href="guides.html">Guides</a>
+  <a href="products.html">Products</a><a href="about.html">About</a><a href="contact.html">Contact</a>
+</nav></header>
+<main class="container">
+  <h1>Guides</h1>
+  <section id="nginx15" class="card">
+    <h2>Harden Nginx in 15 Minutes</h2>
+    <ol class="list">
+      <li>Enable HTTPS (Let’s Encrypt).</li>
+      <li>Add security headers (CSP, HSTS, XFO, XCTO).</li>
+      <li>Disable weak ciphers; prefer TLS 1.2/1.3.</li>
+      <li>Turn on fail2ban for brute-force patterns.</li>
+    </ol>
+    <p class="notice">We’ll publish full runbooks soon — follow <a href="products.html">our tool picks</a> meanwhile.</p>
+  </section>
+  <section id="s3" class="card">
+    <h2>Secure S3 Buckets the Right Way</h2>
+    <ul class="list">
+      <li>Block Public Access (account & bucket).</li>
+      <li>Encrypt with KMS CMKs; rotate annually.</li>
+      <li>Use least-privilege IAM policies.</li>
+      <li>Enable Access Analyzer & bucket logs.</li>
+    </ul>
+  </section>
+  <section id="cicd" class="card">
+    <h2>DevSecOps: Add Scans to CI in 30 Minutes</h2>
+    <ul class="list">
+      <li>Static code: CodeQL/Sonar.</li>
+      <li>Dependencies: SCA (e.g., OWASP Dep-Check or Snyk).</li>
+      <li>Containers & IaC: Trivy, Checkov.</li>
+      <li>DAST: ZAP in a review env.</li>
+    </ul>
+  </section>
+</main>
+<footer class="footer"><div class="small">© 2025 The Vigilant Security • <a href="privacy.html">Privacy</a> • <a href="affiliate-disclosure.html">Affiliate Disclosure</a></div></footer>
+</body></html>
