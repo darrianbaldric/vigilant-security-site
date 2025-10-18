@@ -1,0 +1,19 @@
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS-specific files
+.DS_Store
+
+# Environment/config files
+.env
+config.json
+
+# Build and dependency folders
+node_modules/
+dist/
+
+# Sensitive keys
+*.pem
+*.key
+
