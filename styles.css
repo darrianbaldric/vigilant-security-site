@@ -35,9 +35,10 @@ hr{border:0;border-top:1px solid #1f2937;margin:1.5rem 0}
 
 .hero img {
   display: block;
-  margin: 20px auto;
-  max-width: 100%;
+  width: 80%;
+  max-width: 1000px;
   height: auto;
+  margin: 0 auto;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
+
