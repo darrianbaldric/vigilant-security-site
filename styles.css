@@ -94,3 +94,339 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
+/* ====== HERO SECTION STYLES ====== */
+.hero-header {
+  background: url('images/hero-banner.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.brand-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.brand-tagline {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+
+.cta-btn {
+  background: #0077ff;
+  padding: 14px 28px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #005bb5;
+}
+
+/* ====== NAVIGATION BAR ====== */
+.nav-bar {
+  background: #0d0d0d;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00aaff;
+}
+
+/* ====== AFFILIATE BANNERS ====== */
+.affiliate-banner {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.affiliate-banner img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.affiliate-banner img:hover {
+  transform: scale(1.03);
+}
+/* ========================================= */
+/* 🌐 HERO SECTION (Landing Page Header) */
+/* ========================================= */
+
+.hero-header {
+  background: url('images/hero-banner.jpg') no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: #fff;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.brand-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.brand-tagline {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-weight: 400;
+  color: #e5e5e5;
+}
+
+.cta-btn {
+  background: #0077ff;
+  padding: 14px 28px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #005bb5;
+}
+
+/* ========================================= */
+/* 🧭 NAVIGATION BAR */
+/* ========================================= */
+
+.nav-bar {
+  background: #0d0d0d;
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar .logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #00aaff;
+}
+
+/* ========================================= */
+/* 📦 AFFILIATE BANNERS */
+/* ========================================= */
+
+.affiliate-banner {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.affiliate-banner img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+}
+
+.affiliate-banner img:hover {
+  transform: scale(1.03);
+}
+
+/* ========================================= */
+/* 📚 TOOL SECTIONS (Resources Page) */
+/* ========================================= */
+
+.tool-section {
+  margin: 60px 0;
+  line-height: 1.6;
+}
+
+.tool-section h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.tool-section ul {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+.tool-section li {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+
+.tool-section p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* ========================================= */
+/* 📱 RESPONSIVE DESIGN */
+/* ========================================= */
+
+/* 📏 Small devices: phones (up to 600px) */
+@media (max-width: 600px) {
+  .hero-header {
+    height: 60vh;
+    padding: 20px;
+  }
+
+  .brand-title {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+
+  .brand-tagline {
+    font-size: 1.1rem;
+    padding: 0 10px;
+  }
+
+  .cta-btn {
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+  }
+
+  .nav-links a {
+    font-size: 1rem;
+  }
+
+  .tool-section {
+    padding: 30px 15px;
+  }
+
+  .affiliate-banner img {
+    max-width: 100%;
+  }
+}
+
+/* 📏 Medium devices: tablets (600px - 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .brand-title {
+    font-size: 3.2rem;
+  }
+
+  .brand-tagline {
+    font-size: 1.3rem;
+  }
+
+  .nav-bar {
+    padding: 20px 40px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .tool-section {
+    padding: 40px 30px;
+  }
+
+  .affiliate-banner img {
+    max-width: 95%;
+  }
+}
+
+/* 📏 Large screens: desktops (above 1024px) */
+@media (min-width: 1025px) {
+  .brand-title {
+    font-size: 4rem;
+  }
+
+  .brand-tagline {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn {
+    font-size: 1.1rem;
+  }
+
+  .tool-section {
+    padding: 60px 80px;
+  }
+
+  .affiliate-banner img {
+    max-width: 90%;
+  }
+}
