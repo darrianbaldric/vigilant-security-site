@@ -430,3 +430,77 @@ footer {
     max-width: 90%;
   }
 }
+/* ====== FEATURE SHOWCASE SECTION ====== */
+.feature-showcase {
+  padding: 80px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.feature-showcase h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #222;
+}
+
+.feature-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 350px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.feature-card img {
+  width: 100%;
+  max-width: 320px; /* ✅ Controls the max size */
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  object-fit: contain; /* ✅ Ensures no distortion */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.feature-card .btn {
+  display: inline-block;
+  padding: 12px 20px;
+  background: #0077ff;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.feature-card .btn:hover {
+  background: #005bb5;
+}
