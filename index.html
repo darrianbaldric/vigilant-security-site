@@ -1,75 +1,118 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>The Vigilant Security — Practical Cloud & Cyber Guides</title>
-<link rel="stylesheet" href="styles.css">
-<meta name="description" content="Practical cloud & cybersecurity guides, vetted tools, and step-by-step hardening runbooks.">
-</head><body>
-<header class="header">
-  <div class="logo">The Vigilant Security</div>
-  <nav class="nav">
-    <a class="active" href="index.html">Home</a>
-    <a href="guides.html">Guides</a>
-    <a href="products.html">Products</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-    <a href="blog/index.html">Blog</a>
-  </nav>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Vigilant Security | Cybersecurity Insights & Protection</title>
+  <meta name="description" content="Empowering businesses and individuals with cybersecurity insights, strategies, and trusted solutions.">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
+  <!-- ✅ Navigation -->
+  <header>
+    <nav class="container nav">
+      <h1 class="logo">The Vigilant Security</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog/index.html">Blog</a></li>
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ✅ Hero Section -->
   <section class="hero">
-  <h1>Welcome to Vigilant Security</h1>
-  <img src="images/security-hero.jpg" alt="Cybersecurity Hero" style="width:100%; max-width:1000px; height:auto; border-radius:12px;">
-  <p>Protect your digital environment with trusted tools and expert knowledge.</p>
-</section>
+    <div class="container">
+      <h1>Protect Your Digital Future</h1>
+      <p>Actionable cybersecurity insights, strategies, and solutions for businesses, governments, and individuals.</p>
+      <a href="blog/index.html" class="btn">Explore the Blog</a>
+    </div>
+  </section>
 
-<section id="blog-preview">
-  <h2>From Our Blog</h2>
-  <p>Explore our latest articles on cybersecurity trends and strategies:</p>
-  <ul>
-    <li><a href="blog/zero-trust-security.html">Zero Trust Security Explained</a></li>
-    <li><a href="blog/ai-threats.html">The Rise of AI-Driven Cyber Threats</a></li>
-  </ul>
-</section>
+  <!-- ✅ About / Mission -->
+  <section class="about container">
+    <h2>Our Mission</h2>
+    <p>
+      At <strong>The Vigilant Security</strong>, our mission is simple: empower organizations and individuals to protect what matters most. 
+      We deliver trusted cybersecurity knowledge, best practices, and vetted solutions to help you stay ahead of evolving threats. 
+      Whether you're a small business or a government agency, we make enterprise-grade security accessible and understandable.
+    </p>
+  </section>
 
+  <!-- ✅ Latest Blog Previews -->
+  <section class="blog-preview">
+    <div class="container">
+      <h2>Latest Insights</h2>
+      <div class="card-grid">
+        <div class="card">
+          <img src="images/zero-trust.jpg" alt="Zero Trust Security">
+          <h3>Zero Trust Security Explained</h3>
+          <p>Why traditional network perimeters no longer work — and how zero trust changes the game.</p>
+          <a href="blog/zero-trust.html" class="btn">Read More</a>
+        </div>
+        <div class="card">
+          <img src="images/ai-threats.jpg" alt="AI Threats">
+          <h3>The Rise of AI-Driven Cyber Threats</h3>
+          <p>How attackers weaponize machine learning — and what defenders must do to fight back.</p>
+          <a href="blog/ai-threats.html" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<p>Explore trusted tools, tutorials, and best practices for building secure systems.</p>
-</section>
+  <!-- ✅ Affiliate / Tools Section -->
+  <section class="resources">
+    <div class="container">
+      <h2>Recommended Tools & Resources</h2>
+      <p>Explore trusted solutions that help strengthen your security posture. These are handpicked tools used by professionals worldwide.</p>
+      <div class="tool-grid">
+        <div class="tool">
+          <h3>Threat Detection Platform</h3>
+          <p>AI-powered detection suite for enterprise-grade defense.</p>
+          <a href="#" class="btn">Get Started</a>
+        </div>
+        <div class="tool">
+          <h3>Phishing Simulation Suite</h3>
+          <p>Test and train employees with real-world phishing campaigns.</p>
+          <a href="#" class="btn">Try It Free</a>
+        </div>
+        <div class="tool">
+          <h3>SOAR Automation Tool</h3>
+          <p>Automate incident response workflows and reduce MTTR.</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section class="hero">
-  <h1>Secure Your Stack, One Runbook at a Time</h1>
-  <p>Field-tested guides for cloud, containers, and endpoint security — plus the exact tools we trust.</p>
-  <a class="btn" href="products.html">See Recommended Tools</a>
-  <div class="kicker">As an affiliate, we may earn from qualifying purchases <span class="badge">Disclosure</span></div>
-</section>
+  <!-- ✅ Newsletter Signup -->
+  <section class="newsletter">
+    <div class="container">
+      <h2>Stay Ahead of Emerging Threats</h2>
+      <p>Subscribe to our newsletter for exclusive insights, guides, and tools — straight to your inbox.</p>
+      <form action="#" method="post">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="btn">Subscribe</button>
+      </form>
+    </div>
+  </section>
 
-<main class="container">
-  <h2>Latest Guides</h2>
-  <div class="grid cards">
-    <article class="card">
-      <img src="https://via.placeholder.com/900x500?text=Harden+Nginx" alt="Harden Nginx">
-      <h3>Harden Nginx in 15 Minutes</h3>
-      <p>Security headers, TLS, and fail2ban — the quick wins that matter.</p>
-      <a class="btn" href="guides.html#nginx15">Read</a>
-    </article>
-    <article class="card">
-      <img src="https://via.placeholder.com/900x500?text=S3+Security" alt="S3 Security">
-      <h3>Secure S3 Buckets the Right Way</h3>
-      <p>Block Public Access, KMS, and policy patterns you can reuse.</p>
-      <a class="btn" href="guides.html#s3">Read</a>
-    </article>
-    <article class="card">
-      <img src="https://via.placeholder.com/900x500?text=CI%2FCD+Security" alt="CI/CD">
-      <h3>DevSecOps: Add Scans to CI in 30 Minutes</h3>
-      <p>Trivy, CodeQL, and ZAP — lightweight gates that catch real risks.</p>
-      <a class="btn" href="guides.html#cicd">Read</a>
-    </article>
-  </div>
-</main>
+  <!-- ✅ Contact CTA -->
+  <section class="contact-cta">
+    <div class="container">
+      <h2>Ready to Strengthen Your Security?</h2>
+      <p>Contact us to discuss solutions tailored to your organization’s needs.</p>
+      <a href="contact.html" class="btn">Get in Touch</a>
+    </div>
+  </section>
 
-<footer class="footer">
-  <div class="small">
-    © 2025 The Vigilant Security • <a href="privacy.html">Privacy</a> •
-    <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
-  </div>
-</footer>
-</body></html>
+  <!-- ✅ Footer -->
+  <footer>
+    <p>© 2025 The Vigilant Security | Empowering Cyber Defense</p>
+  </footer>
+
+</body>
+</html>
